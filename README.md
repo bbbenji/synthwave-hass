@@ -16,13 +16,18 @@
 * `$ wget https://raw.githubusercontent.com/bbbenji/synthwave-hass/master/themes/synthwave.yaml` downloads the `.yaml` file directly where it should reside
 * Change into `~/.homeassistant/www` (create the `www` directory, if it does not exist, you then might have to restart HA)
 * `$ wget https://raw.githubusercontent.com/bbbenji/synthwave-hass/master/synthwave.js` downloads the `.js` file directly where it should reside
-* Finally, add the following to the top of your UI Lovelace configuration (means either via Config UI or .yaml)
+* Add the following to the top of your UI Lovelace configuration (means either via Config UI or .yaml)
 ``` yaml
 resources:
   - type: js
     url: /local/synthwave.js
 ```
-* Enable the theme from your profile page or configuration.yaml
+* Make sure Home Assistant knows about your new theme file by adding the following to your `configuration.yaml`
+```
+frontend:
+  themes: !include_dir_merge_named themes
+```
+* Finally enable the theme from your profile page or `configuration.yaml`
 
 **Screenshots**
 
