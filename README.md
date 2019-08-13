@@ -30,7 +30,9 @@ resources:
 
 ![2](https://i.imgur.com/bLhZFHy.png)
 
-![3](https://i.imgur.com/xSRMqr4.png)
+![3](https://i.imgur.com/BcyjeJz.png)
+
+![3](https://i.imgur.com/WXg2417.png)
 
 **Current Issues / Drawbacks / Plans**
 
