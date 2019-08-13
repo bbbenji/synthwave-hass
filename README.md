@@ -13,9 +13,9 @@
 
 * Find your homeassistant directory containing your configuration (let's say `~/.homeassistant/`)
 * Change into `~/.homeassistant/themes` (create the `themes` directory, if it does not exist, you then might have to restart HA)
-* `$ wget https://raw.githubusercontent.com/bbbenji/synthwave_hass/master/themes/synthwave.yaml` downloads the `.yaml` file directly where it should reside
+* `$ wget https://raw.githubusercontent.com/bbbenji/synthwave-hass/master/themes/synthwave.yaml` downloads the `.yaml` file directly where it should reside
 * Change into `~/.homeassistant/www` (create the `www` directory, if it does not exist, you then might have to restart HA)
-* `$ wget https://raw.githubusercontent.com/bbbenji/synthwave_hass/master/synthwave.js` downloads the `.js` file directly where it should reside
+* `$ wget https://raw.githubusercontent.com/bbbenji/synthwave-hass/master/synthwave.js` downloads the `.js` file directly where it should reside
 * Finally, add the following to the top of your UI Lovelace configuration (means either via Config UI or .yaml)
 ``` yaml
 resources:
