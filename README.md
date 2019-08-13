@@ -23,7 +23,7 @@ resources:
     url: /local/synthwave.js
 ```
 * Make sure Home Assistant knows about your new theme file by adding the following to your `configuration.yaml`
-```
+``` yaml
 frontend:
   themes: !include_dir_merge_named themes
 ```
