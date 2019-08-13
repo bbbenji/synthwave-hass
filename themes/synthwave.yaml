@@ -1,0 +1,65 @@
+synthwave:
+  # text
+  primary-text-color: '#fff'
+  secondary-text-color: '#ffffffca'
+  text-primary-color: '#f4eee4'
+  disabled-text-color: '#bdbdbd'
+  
+  # main interface colors
+  primary-color: '#2a2139'
+  dark-primary-color: '#f92aad'
+  light-primary-color: '#241b2f'
+  accent-color: '#f92aad'
+  divider-color: '#49549539'
+  paper-dialog-button-color: '#fff'
+
+  ###
+  
+  # background and sidebar
+  card-background-color: '#34294f88'
+  primary-background-color: 'var(--primary-color)' 
+  secondary-background-color: 'var(--light-primary-color)' # behind the cards on state
+  ha-card-border-radius: '0'
+  
+  # sidebar menu
+  sidebar-text-color: 'var(--secondary-text-color)'
+  # sidebar-background-color: 'var(--paper-listbox-background-color)' # backward compatible with existing themes
+  sidebar-icon-color: 'var(--secondary-text-color)'
+  sidebar-selected-text-color: 'var(--primary-text-color)'
+  sidebar-selected-icon-color: 'var(--primary-text-color)'
+
+  # controls
+  toggle-button-color: 'var(--primary-color)'
+  # --toggle-button-unchecked-color: 'var(--accent-color)'
+  slider-color: 'var(--primary-color)'
+  slider-secondary-color: 'var(--light-primary-color)'
+  # slider-bar-color: 'var(--disabled-text-color)'
+  
+  # mwc - for some reason it's buttons
+  mdc-theme-primary: 'var(--primary-text-color)'
+  
+  # shadows
+  ha-card-box-shadow: '0'
+
+  # icons
+  paper-item-icon-color: 'var(--secondary-text-color)'                                # Off
+  paper-item-icon-active-color: '#ffcc00'                             # On
+
+  # switches
+  paper-toggle-button-checked-button-color: '#FFF'                                # Knob On
+  paper-toggle-button-checked-bar-color: 'var(--dark-primary-color)'                                # Background On
+  paper-toggle-button-unchecked-button-color: '#FFF'                              # Knob Off
+  paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)'           # Background Off
+
+  # other
+  state-icon-color: '#72f1b8cc'
+  table-row-background-color: 'var(--divider-color)'
+  table-row-alternative-background-color: 'var(--light-primary-color)'
+  
+  ###
+
+  # UI
+  paper-card-header-color: 'var(--text-primary-color)'                                    # Title in settings
+
+  # Left Menu
+  paper-listbox-background-color: 'var(--light-primary-color)'                       # Background
