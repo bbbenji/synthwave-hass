@@ -12,7 +12,7 @@ synthwave:
   accent-color: '#f92aad'
   divider-color: '#49549539'
   paper-dialog-button-color: '#fff'
-
+  
   ###
   
   # background and sidebar
@@ -43,14 +43,14 @@ synthwave:
   ha-card-box-shadow: '0'
 
   # icons
-  paper-item-icon-color: 'var(--secondary-text-color)'                                # Off
-  paper-item-icon-active-color: '#ffcc00'                             # On
+  paper-item-icon-color: 'var(--secondary-text-color)'  # Off
+  paper-item-icon-active-color: '#ffcc00' # On
 
   # switches
-  paper-toggle-button-checked-button-color: '#FFF'                                # Knob On
-  paper-toggle-button-checked-bar-color: 'var(--dark-primary-color)'                                # Background On
-  paper-toggle-button-unchecked-button-color: '#FFF'                              # Knob Off
-  paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)'           # Background Off
+  paper-toggle-button-checked-button-color: '#FFF' # Knob On
+  paper-toggle-button-checked-bar-color: 'var(--dark-primary-color)' # Background On
+  paper-toggle-button-unchecked-button-color: '#FFF' # Knob Off
+  paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)' # Background Off
 
   # other
   state-icon-color: '#72f1b8cc'
@@ -60,7 +60,7 @@ synthwave:
   ###
 
   # UI
-  paper-card-header-color: 'var(--text-primary-color)'                                    # Title in settings
+  paper-card-header-color: 'var(--text-primary-color)' # Title in settings
 
   # Left Menu
-  paper-listbox-background-color: 'var(--light-primary-color)'                       # Background
+  paper-listbox-background-color: 'var(--light-primary-color)' # Background
