@@ -33,8 +33,3 @@ Optionally you can install [synthwave-hass-extras](https://github.com/bbbenji/sy
 ![3](https://i.imgur.com/BcyjeJz.png)
 
 ![3](https://i.imgur.com/WXg2417.png)
-
-**Current Issues / Drawbacks / Plans**
-
-* Community Store has white on white text
-* Some buttons are white on white
