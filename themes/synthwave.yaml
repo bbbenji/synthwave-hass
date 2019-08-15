@@ -36,7 +36,7 @@ synthwave:
   # slider-bar-color: 'var(--disabled-text-color)'
   
   # mwc - for some reason it's buttons
-  mdc-theme-primary: 'var(--primary-text-color)'
+  mdc-theme-primary: 'var(--dark-primary-color)'
   
   # shadows
   ha-card-box-shadow: '0'
