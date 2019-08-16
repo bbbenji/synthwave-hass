@@ -52,6 +52,10 @@ synthwave:
   paper-toggle-button-unchecked-button-color: '#FFF' # Knob Off
   paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)' # Background Off
 
+  # radio buttons
+  paper-radio-button-checked-color: 'var(--paper-toggle-button-checked-button-color)'
+  paper-radio-button-unchecked-color: 'var(--paper-toggle-button-unchecked-button-color)'
+
   # other
   state-icon-color: '#72f1b8cc'
   table-row-background-color: 'var(--divider-color)'
