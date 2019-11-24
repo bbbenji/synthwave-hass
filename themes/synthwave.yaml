@@ -34,6 +34,7 @@ synthwave:
   # --toggle-button-unchecked-color: 'var(--accent-color)'
   slider-color: 'var(--primary-color)'
   slider-secondary-color: 'var(--light-primary-color)'
+  paper-slider-active-color: 'var(--dark-primary-color)'
   # slider-bar-color: 'var(--disabled-text-color)'
   
   # mwc - for some reason it's buttons
@@ -49,6 +50,7 @@ synthwave:
   # switches
   paper-toggle-button-checked-button-color: '#FFF' # Knob On
   paper-toggle-button-checked-bar-color: 'var(--dark-primary-color)' # Background On
+  switch-checked-color: 'var(--dark-primary-color)' # Background On
   paper-toggle-button-unchecked-button-color: '#FFF' # Knob Off
   paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)' # Background Off
 
