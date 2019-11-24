@@ -28,14 +28,6 @@ synthwave:
   sidebar-icon-color: 'var(--secondary-text-color)'
   sidebar-selected-text-color: 'var(--primary-text-color)'
   sidebar-selected-icon-color: 'var(--primary-text-color)'
-
-  # controls
-  toggle-button-color: 'var(--primary-color)'
-  # --toggle-button-unchecked-color: 'var(--accent-color)'
-  slider-color: 'var(--primary-color)'
-  slider-secondary-color: 'var(--light-primary-color)'
-  paper-slider-active-color: 'var(--dark-primary-color)'
-  # slider-bar-color: 'var(--disabled-text-color)'
   
   # mwc - for some reason it's buttons
   mdc-theme-primary: 'var(--dark-primary-color)'
@@ -48,11 +40,26 @@ synthwave:
   paper-item-icon-active-color: '#ffcc00' # On
 
   # switches
+  toggle-button-color: 'var(--primary-color)'
+  # --toggle-button-unchecked-color: 'var(--accent-color)'
   paper-toggle-button-checked-button-color: '#FFF' # Knob On
   paper-toggle-button-checked-bar-color: 'var(--dark-primary-color)' # Background On
   switch-checked-color: 'var(--dark-primary-color)' # Background On
   paper-toggle-button-unchecked-button-color: '#FFF' # Knob Off
   paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)' # Background Off
+
+  # Sliders
+  slider-color: 'var(--primary-color)'
+  slider-secondary-color: 'var(--light-primary-color)'
+  slider-bar-color: 'var(--disabled-text-color)'
+  paper-slider-knob-color: 'var(--accent-color)'
+  paper-slider-knob-start-color: 'var(--accent-color)'
+  paper-slider-pin-color: 'var(--accent-color)'
+  paper-slider-active-color: 'var(--dark-primary-color)'
+  # paper-slider-container-color: 'linear-gradient(var(--primary-background-color), var(--secondary-background-color)) no-repeat'
+  paper-slider-secondary-color: 'var(--secondary-background-color)'
+  paper-slider-disabled-active-color: 'var(--disabled-text-color)'
+  paper-slider-disabled-secondary-color: 'var(--disabled-text-color)'
 
   # radio buttons
   paper-radio-button-checked-color: 'var(--paper-toggle-button-checked-button-color)'
