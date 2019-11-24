@@ -49,6 +49,7 @@ synthwave:
   # switches
   paper-toggle-button-checked-button-color: '#FFF' # Knob On
   paper-toggle-button-checked-bar-color: 'var(--dark-primary-color)' # Background On
+  switch-checked-color: 'var(--dark-primary-color)' # Background On
   paper-toggle-button-unchecked-button-color: '#FFF' # Knob Off
   paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)' # Background Off
 
