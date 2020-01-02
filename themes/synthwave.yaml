@@ -4,9 +4,10 @@ synthwave:
   secondary-text-color: '#ffffffca'
   text-primary-color: '#f4eee4'
   disabled-text-color: '#bdbdbd'
-  
+
   # main interface colors
-  primary-color: '#2a2139'
+  primary-color: '#ffffff'
+  primary-background-color: '#2a2139'
   dark-primary-color: '#f92aad'
   light-primary-color: '#241b2f'
   accent-color: '#f92aad'
@@ -17,6 +18,7 @@ synthwave:
   
   # background and sidebar
   card-background-color: '#34294f88'
+  app-header-background-color: 'var(--primary-background-color)'
   paper-card-background-color: 'var(--card-background-color)'
   primary-background-color: 'var(--primary-color)' 
   secondary-background-color: 'var(--light-primary-color)' # behind the cards on state
