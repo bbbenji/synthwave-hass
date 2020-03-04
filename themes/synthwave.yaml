@@ -83,3 +83,6 @@ synthwave:
   # bar-card compatibility
   # https://github.com/custom-cards/bar-card
   custom-bar-card-color: 'var(--accent-color)'
+
+  # fix dropdown background
+  material-background-color: 'var(--light-primary-color)'
