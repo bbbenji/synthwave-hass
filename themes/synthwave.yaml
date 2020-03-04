@@ -20,7 +20,6 @@ synthwave:
   card-background-color: '#34294f88'
   app-header-background-color: 'var(--primary-background-color)'
   paper-card-background-color: 'var(--card-background-color)'
-  primary-background-color: 'var(--primary-color)' 
   secondary-background-color: 'var(--light-primary-color)' # behind the cards on state
   ha-card-border-radius: '0'
   
