@@ -13,6 +13,9 @@ synthwave:
   accent-color: '#f92aad'
   divider-color: '#49549539'
   paper-dialog-button-color: '#fff'
+  switch-unchecked-button-color: '#fff'
+  yellow: '#ffcc00'
+  green: '#72f1b8cc'
   
   ###
   
@@ -38,15 +41,15 @@ synthwave:
 
   # icons
   paper-item-icon-color: 'var(--secondary-text-color)'  # Off
-  paper-item-icon-active-color: '#ffcc00' # On
+  paper-item-icon-active-color: 'var(--yellow)' # On
 
   # switches
   toggle-button-color: 'var(--primary-color)'
   # --toggle-button-unchecked-color: 'var(--accent-color)'
-  paper-toggle-button-checked-button-color: '#FFF' # Knob On
+  paper-toggle-button-checked-button-color: 'var(--primary-text-color)' # Knob On
   paper-toggle-button-checked-bar-color: 'var(--dark-primary-color)' # Background On
   switch-checked-color: 'var(--dark-primary-color)' # Background On
-  paper-toggle-button-unchecked-button-color: '#FFF' # Knob Off
+  paper-toggle-button-unchecked-button-color: 'var(--primary-text-color)' # Knob Off
   paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)' # Background Off
 
   # Sliders
@@ -61,13 +64,14 @@ synthwave:
   paper-slider-secondary-color: 'var(--secondary-background-color)'
   paper-slider-disabled-active-color: 'var(--disabled-text-color)'
   paper-slider-disabled-secondary-color: 'var(--disabled-text-color)'
+  switch-unchecked-track-color: 'var(--primary-text-color)'
 
   # radio buttons
   paper-radio-button-checked-color: 'var(--paper-toggle-button-checked-button-color)'
   paper-radio-button-unchecked-color: 'var(--paper-toggle-button-unchecked-button-color)'
 
   # other
-  state-icon-color: '#72f1b8cc'
+  state-icon-color: 'var(--green)'
   table-row-background-color: 'var(--divider-color)'
   table-row-alternative-background-color: 'var(--light-primary-color)'
   
