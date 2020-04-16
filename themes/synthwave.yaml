@@ -82,6 +82,7 @@ synthwave:
 
   # Left Menu
   paper-listbox-background-color: 'var(--light-primary-color)' # Background
+  sidebar-background-color: 'var(--light-primary-color)'
 
   # bar-card compatibility
   # https://github.com/custom-cards/bar-card
