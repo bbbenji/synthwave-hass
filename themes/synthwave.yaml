@@ -92,4 +92,4 @@ synthwave:
   material-background-color: 'var(--light-primary-color)'
 
   # Scrollbar
-  scrollbar-thumb-color: 'var(--primary-background-color)'
+  scrollbar-thumb-color: 'var(--divider-color)'
