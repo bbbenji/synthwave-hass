@@ -94,3 +94,8 @@ synthwave:
 
   # Scrollbar
   scrollbar-thumb-color: 'var(--divider-color)'
+
+  # simple-thermostat buttons
+  # https://github.com/nervetattoo/simple-thermostat
+  st-mode-background: 'var(--primary-background-color)'
+  st-mode-active-background: 'var(--dark-primary-color)'
