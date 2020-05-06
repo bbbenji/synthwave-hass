@@ -14,7 +14,7 @@ synthwave:
   divider-color: '#49549539'
   paper-dialog-button-color: '#fff'
   switch-unchecked-button-color: '#fff'
-  iron-icon-fill-color: '#fff'
+  # iron-icon-fill-color: '#fff'
   yellow: '#ffcc00'
   green: '#72f1b8cc'
   

@@ -1,6 +1,6 @@
 # synthwave-hass
 
-[![Version](https://img.shields.io/badge/version-0.3.3-green.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
+[![Version](https://img.shields.io/badge/version-0.3.3.1-green.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
 [![maintained](https://img.shields.io/maintenance/yes/2020.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
 
 > Do you remember that endless summer back in '84? Cruising down the ocean-highway with the top down, the wind in our hair and heads buzzing with neon dreams?
