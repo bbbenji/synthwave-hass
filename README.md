@@ -1,7 +1,14 @@
 # synthwave-hass
 
-[![Version](https://img.shields.io/badge/version-0.3.3.1-green.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
-[![maintained](https://img.shields.io/maintenance/yes/2020.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
+[![Version](https://img.shields.io/badge/version-0.3.3.2-green.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
+[![maintained](https://img.shields.io/maintenance/no/2020.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
+[![prs](https://img.shields.io/badge/accepting%20PR's-yes-x?style=flat-square&labelColor=2a2139&color=f92aad)](#)
+
+## This project is no longer supported
+
+In addition to Home Assistant now supporting a limited amount of theme customizability through Lovelace, rendering this theme partly useless, I have lost interest and time for this project. This theme will no longer be developed by me. However, I will still be accepting pull requests, after review, if anyone submits any fixes.
+
+---
 
 > Do you remember that endless summer back in '84? Cruising down the ocean-highway with the top down, the wind in our hair and heads buzzing with neon dreams?
 
