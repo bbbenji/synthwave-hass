@@ -6,7 +6,7 @@ synthwave:
   disabled-text-color: '#bdbdbd'
 
   # main interface colors
-  primary-color: '#34294f88'
+  primary-color: '#f92aad'
   primary-background-color: '#2a2139'
   dark-primary-color: '#f92aad'
   light-primary-color: '#241b2f'
@@ -21,11 +21,11 @@ synthwave:
   ###
   
   # background and sidebar
-  card-background-color: '#34294f88'
+  card-background-color: '#34294fe6'
   app-header-background-color: 'var(--primary-background-color)'
   paper-card-background-color: 'var(--card-background-color)'
   secondary-background-color: 'var(--light-primary-color)' # behind the cards on state
-  ha-card-border-radius: '0'
+  ha-card-border-radius: '8px'
   
   # sidebar menu
   sidebar-text-color: 'var(--secondary-text-color)'
@@ -36,6 +36,7 @@ synthwave:
   
   # mwc - for some reason it's buttons
   mdc-theme-primary: 'var(--dark-primary-color)'
+  mdc-theme-secondary: 'var(--dark-primary-color)'
   
   # shadows
   ha-card-box-shadow: '0'
