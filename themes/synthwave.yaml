@@ -77,6 +77,29 @@ synthwave:
   table-row-background-color: 'var(--divider-color)'
   table-row-alternative-background-color: 'var(--light-primary-color)'
   
+  # Inputs
+  mdc-select-fill-color: 'var(--card-background-color)'
+  mdc-select-ink-color: 'var(--primary-text-color)'
+  mdc-select-label-ink-color: 'var(--primary-text-color)'
+  mdc-select-dropdown-icon-color: 'var(--primary-text-color)'
+  mdc-text-field-label-ink-color: 'var(--primary-text-color)'
+  mdc-text-field-ink-color: 'var(--primary-text-color)'
+  mdc-text-field-fill-color: 'var(--card-background-color)'
+  input-dropdown-icon-color: 'var(--primary-text-color)'
+  # Inputs Ripple/line
+  mdc-ripple-color: 'var(--primary-text-color)'
+  mdc-text-field-idle-line-color: 'var(--primary-text-color)'
+  mdc-text-field-hover-line-color: 'var(--primary-text-color)'
+  mdc-select-idle-line-color: 'var(--primary-text-color)'
+  mdc-select-hover-line-color: 'var(--primary-text-color)'
+  # Inputs Disabled
+  mdc-select-disabled-fill-color: 'var(--primary-background-color)'
+  mdc-select-disabled-ink-color: 'var(--disabled-text-color)'
+  mdc-select-disabled-dropdown-icon-color: 'var(--disabled-text-color)'
+  mdc-text-field-disabled-fill-color: 'var(--primary-background-color)'
+  mdc-text-field-disabled-ink-color: 'var(--disabled-text-color)'
+  mdc-text-field-disabled-dropdown-icon-color: 'var(--disabled-text-color)'
+  
   ###
 
   # UI
