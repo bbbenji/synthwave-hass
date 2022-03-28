@@ -4,6 +4,7 @@ synthwave:
   secondary-text-color: '#ffffffca'
   text-primary-color: '#f4eee4'
   disabled-text-color: '#bdbdbd'
+  text-light-primary-color: '#fff'
 
   # main interface colors
   primary-color: '#f92aad'
