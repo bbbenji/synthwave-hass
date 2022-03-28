@@ -95,6 +95,7 @@ synthwave:
   # Inputs Disabled
   mdc-select-disabled-fill-color: 'var(--primary-background-color)'
   mdc-select-disabled-ink-color: 'var(--disabled-text-color)'
+  mdc-select-disabled-dropdown-icon-color: 'var(--disabled-text-color)'
   
   ###
 
