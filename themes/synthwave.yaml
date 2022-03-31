@@ -101,6 +101,26 @@ synthwave:
   mdc-text-field-disabled-ink-color: 'var(--disabled-text-color)'
   mdc-text-field-disabled-dropdown-icon-color: 'var(--disabled-text-color)'
   
+  # Template Editor
+  codemirror-keyword: '#36f9f6'
+  codemirror-operator: '#36f9f6'
+  codemirror-variable: '#ff7edb'
+  codemirror-variable-2: '#ff7edb'
+  codemirror-variable-3: '#ff7edb'
+  codemirror-builtin: '#36f9f6'
+  codemirror-atom: '#36f9f6'
+  codemirror-number: '#f97e72'
+  codemirror-def: '#fe4450'
+  codemirror-string: '#ff8b39'
+  codemirror-string-2: '#ff8b39'
+  codemirror-comment: '#848bbd'
+  codemirror-tag: '#72f1b8'
+  codemirror-meta: '#36f9f6'
+  codemirror-attribute: '#fede5d'
+  codemirror-qualifier: '#fe4450'
+  codemirror-property: 'var(--primary-color)'
+  codemirror-type: '#fe4450'
+  
   ###
 
   # UI
