@@ -1,6 +1,6 @@
 # synthwave-hass
 
-[![Version](https://img.shields.io/badge/version-0.3.3.2-green.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
+[![Version](https://img.shields.io/badge/version-0.3.5-green.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
 [![maintained](https://img.shields.io/maintenance/no/2020.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
 [![prs](https://img.shields.io/badge/accepting%20PR's-yes-x?style=flat-square&labelColor=2a2139&color=f92aad)](#)
 
