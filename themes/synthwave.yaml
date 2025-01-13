@@ -15,6 +15,8 @@ synthwave:
   divider-color: '#49549539'
   paper-dialog-button-color: '#fff'
   switch-unchecked-button-color: '#fff'
+  outline-color: 'rgba(255, 255, 255, 0.12)'
+  outline-over-color: 'rgba(255, 255, 255, 0.24)'
   # iron-icon-fill-color: '#fff'
   yellow: '#ffcc00'
   green: '#72f1b8cc'
@@ -22,7 +24,7 @@ synthwave:
   ###
   
   # background and sidebar
-  card-background-color: '#34294fe6'
+  card-background-color: '#34294f'
   app-header-background-color: 'var(--primary-background-color)'
   paper-card-background-color: 'var(--card-background-color)'
   secondary-background-color: 'var(--light-primary-color)' # behind the cards on state
