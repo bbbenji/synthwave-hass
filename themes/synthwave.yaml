@@ -148,9 +148,9 @@ synthwave:
   st-mode-active-background: 'var(--dark-primary-color)'
 
   # core color tokens
-  ha-color-primary-05: '#18000f'
-  ha-color-primary-10: '#3b0126'
-  ha-color-primary-20: '#860356'
+  ha-color-primary-05: '#720a49'
+  ha-color-primary-10: '#800952'
+  ha-color-primary-20: '#9d0e66'
   ha-color-primary-30: '#d40588'
   ha-color-primary-40: 'var(--primary-color)'
   ha-color-primary-50: '#ee56b6'
