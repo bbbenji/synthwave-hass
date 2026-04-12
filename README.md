@@ -22,6 +22,14 @@ Inspired by: [Synthwave VSCode Theme](https://github.com/robb0wen/synthwave-vsco
 
 ## Installation
 
+### HACS
+
+1. In HACS, add this repository as a custom repository with the category set to `Theme`.
+2. Search for `Synthwave Hass` in HACS and install it.
+3. Restart Home Assistant after installation.
+
+This repository now includes the root `hacs.json` manifest HACS expects for theme repositories. If you maintain a fork, keep that file in place or HACS may show the repository in search but reject installation.
+
 ### Step 1: Locate Your Home Assistant Directory
 
 Find the directory containing your Home Assistant configuration. This is typically located at `~/.homeassistant/`.
@@ -44,6 +52,8 @@ Find the directory containing your Home Assistant configuration. This is typical
    ```bash
    wget https://raw.githubusercontent.com/bbbenji/synthwave-hass/master/themes/synthwave.yaml
    ```
+
+   If you prefer pinned versions in HACS, publish GitHub releases for this repository. Otherwise HACS will use the latest commit SHA as the install version.
 
 ### Step 3: Update Configuration
 
