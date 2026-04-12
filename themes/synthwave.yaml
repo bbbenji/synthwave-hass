@@ -272,3 +272,5 @@ synthwave:
 
   ha-color-surface-default: var(--ha-color-neutral-10)
   ha-color-on-surface-default: var(--ha-color-neutral-95)
+
+  ha-color-form-background: inherited
