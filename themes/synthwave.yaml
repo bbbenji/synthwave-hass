@@ -27,9 +27,13 @@ synthwave:
   card-background-color: '#34294f'
   app-header-background-color: 'var(--primary-background-color)'
   paper-card-background-color: 'var(--card-background-color)'
-  secondary-background-color: 'var(--light-primary-color)' # behind the cards on state
-  ha-card-border-radius: '8px'
-  
+  secondary-background-color: 'var(--light-primary-color)'
+
+  ha-card-border-radius: '28px'
+  ha-card-border-width: '0px'
+  ha-card-border-color: 'transparent'
+  bubble-button-border-radius: '28px'
+
   # sidebar menu
   sidebar-text-color: 'var(--secondary-text-color)'
   # sidebar-background-color: 'var(--paper-listbox-background-color)' # backward compatible with existing themes
@@ -50,7 +54,6 @@ synthwave:
 
   # switches
   toggle-button-color: 'var(--primary-color)'
-  # --toggle-button-unchecked-color: 'var(--accent-color)'
   paper-toggle-button-checked-button-color: 'var(--primary-text-color)' # Knob On
   paper-toggle-button-checked-bar-color: 'var(--dark-primary-color)' # Background On
   switch-checked-color: 'var(--dark-primary-color)' # Background On
@@ -65,7 +68,6 @@ synthwave:
   paper-slider-knob-start-color: 'var(--accent-color)'
   paper-slider-pin-color: 'var(--accent-color)'
   paper-slider-active-color: 'var(--dark-primary-color)'
-  # paper-slider-container-color: 'linear-gradient(var(--primary-background-color), var(--secondary-background-color)) no-repeat'
   paper-slider-secondary-color: 'var(--secondary-background-color)'
   paper-slider-disabled-active-color: 'var(--disabled-text-color)'
   paper-slider-disabled-secondary-color: 'var(--disabled-text-color)'
@@ -102,7 +104,14 @@ synthwave:
   mdc-text-field-disabled-fill-color: 'var(--primary-background-color)'
   mdc-text-field-disabled-ink-color: 'var(--disabled-text-color)'
   mdc-text-field-disabled-dropdown-icon-color: 'var(--disabled-text-color)'
-  
+
+  # Input Focus Fix (fixes white background on focused/active fields)
+  input-fill-color: 'var(--card-background-color)'
+  input-idle-line-color: 'var(--primary-text-color)'
+  input-hover-line-color: 'var(--primary-text-color)'
+  input-ink-color: 'var(--primary-text-color)'
+  input-label-ink-color: 'var(--primary-text-color)'
+
   # Template Editor
   codemirror-keyword: '#36f9f6'
   codemirror-operator: '#36f9f6'
@@ -146,6 +155,51 @@ synthwave:
   # https://github.com/nervetattoo/simple-thermostat
   st-mode-background: 'var(--primary-background-color)'
   st-mode-active-background: 'var(--dark-primary-color)'
+
+  # MD3 semantic variables (HA 2026.4+)
+  ha-color-form-background: 'var(--card-background-color)'
+  ha-color-form-background-hover: 'var(--divider-color)'
+  ha-color-form-background-disabled: 'var(--primary-background-color)'
+  ha-section-background-color: 'var(--card-background-color)'
+
+  # MD3 surface container levels
+  md-sys-color-surface-container: 'var(--light-primary-color)'
+  md-sys-color-surface-container-high: 'var(--light-primary-color)'
+  md-sys-color-surface-container-highest: 'var(--light-primary-color)'
+  md-sys-color-surface-container-low: 'var(--ha-color-neutral-10)'
+  md-sys-color-surface-container-lowest: 'var(--ha-color-neutral-10)'
+
+  # MD3 base mapping
+  md-sys-color-primary: 'var(--primary-color)'
+  md-sys-color-on-primary: 'var(--primary-text-color)'
+  md-sys-color-surface: 'var(--primary-background-color)'
+  md-sys-color-on-surface: 'var(--primary-text-color)'
+  md-sys-color-surface-variant: 'var(--card-background-color)'
+  md-sys-color-on-surface-variant: 'var(--primary-text-color)'
+  md-sys-color-secondary-container: 'var(--divider-color)'
+  md-sys-color-on-secondary-container: 'var(--primary-text-color)'
+  md-sys-color-primary-container: 'var(--light-primary-color)'
+  md-sys-color-on-primary-container: 'var(--primary-text-color)'
+
+  # MD3 theme base fixes
+  mdc-theme-surface: 'var(--primary-background-color)'
+  mdc-theme-on-surface: 'var(--primary-text-color)'
+  mdc-theme-background: 'var(--primary-background-color)'
+
+  # Expansion panel & filter fixes
+  ha-expansion-panel-background: 'var(--card-background-color)'
+  ha-expansion-panel-header-background: 'var(--card-background-color)'
+  ha-expansion-panel-header-background-expanded: 'var(--card-background-color)'
+  ha-expansion-panel-header-background-active: 'var(--card-background-color)'
+  expansion-panel-header-background-color: 'var(--card-background-color)'
+  ha-filter-entities-header-background: 'var(--card-background-color)'
+  ha-list-item-selected-active-background-color: 'var(--divider-color)'
+  paper-item-selected-background-color: 'var(--divider-color)'
+  paper-item-activated-background-color: 'var(--divider-color)'
+
+  # Climate card neon fix
+  state-climate-heat-color: '#ff5722'
+  state-climate-cool-color: '#2b9af9'
 
   # core color tokens
   ha-color-primary-05: '#720a49'
@@ -273,4 +327,20 @@ synthwave:
   ha-color-surface-default: var(--ha-color-neutral-10)
   ha-color-on-surface-default: var(--ha-color-neutral-95)
 
-  ha-color-form-background: inherited
+  # RGB palette (required for MD3 transparency effects in light mode)
+  rgb-primary-color: '249, 42, 173'
+  rgb-accent-color: '249, 42, 173'
+  rgb-primary-background-color: '42, 33, 57'
+  rgb-card-background-color: '52, 41, 79'
+  rgb-secondary-background-color: '36, 27, 47'
+  rgb-sidebar-background-color: '36, 27, 47'
+  rgb-md-sys-color-surface: '42, 33, 57'
+  rgb-md-sys-color-on-surface: '255, 255, 255'
+  rgb-md-sys-color-primary: '249, 42, 173'
+  rgb-md-sys-color-secondary-container: '73, 84, 149'
+  rgb-md-sys-color-surface-container: '36, 27, 47'
+  rgb-md-sys-color-surface-container-high: '36, 27, 47'
+  rgb-md-sys-color-surface-container-highest: '36, 27, 47'
+  rgb-md-sys-color-surface-container-low: '30, 29, 34'
+  rgb-md-sys-color-surface-container-lowest: '30, 29, 34'
+  rgb-md-sys-color-primary-container: '36, 27, 47'
