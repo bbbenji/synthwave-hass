@@ -1,7 +1,7 @@
 # Synthwave-Hass
 
-[![Version](https://img.shields.io/badge/version-0.3.7-green.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
-[![Maintained](https://img.shields.io/maintenance/no/2020.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
+[![Version](https://img.shields.io/badge/version-0.4.0-green.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
+[![Maintained](https://img.shields.io/maintenance/yes/2026.svg?style=flat-square&labelColor=2a2139&color=f92aad)](#)
 [![PRs Accepted](https://img.shields.io/badge/accepting%20PR's-yes-x?style=flat-square&labelColor=2a2139&color=f92aad)](#)
 
 ## Project Status
@@ -9,6 +9,8 @@
 **This project is no longer supported.**
 
 Due to Home Assistant now supporting limited theme customization through Lovelace, this theme has become partially redundant. Additionally, I have lost the time and interest to maintain this project further. However, I will still review and accept pull requests for any fixes or improvements submitted by the community.
+
+**Update (May 2026):** This theme has been updated for MD3 support and Home Assistant 2026.4+.
 
 ---
 
@@ -67,6 +69,12 @@ frontend:
 ### Step 4: Enable the Theme
 
 You can enable the theme from your profile page or by configuring it directly in `configuration.yaml`.
+
+---
+
+### Important: use Light Mode
+
+Although the theme looks dark, set Home Assistant to **Light Mode** in your profile. This is required for the climate card thermostat to render correctly.
 
 ---
 
