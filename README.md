@@ -24,23 +24,19 @@ Inspired by: [Synthwave VSCode Theme](https://github.com/robb0wen/synthwave-vsco
 
 ### Step 1: Locate Your Home Assistant Directory
 
-Find the directory containing your Home Assistant configuration. This is typically located at `~/.homeassistant/`.
+Find the directory containing your Home Assistant configuration. This is typically located at `~/.homeassistant/`. Open a terminal in that directory; if your configuration is elsewhere, use its path instead.
 
 ### Step 2: Add the Theme
 
-1. Navigate to the `themes` directory:
+1. Create the `themes` directory if needed, then enter it:
    ```bash
-   cd ~/.homeassistant/themes
-   ```
-2. If the `themes` directory does not exist, create it:
-
-   ```bash
-   mkdir themes
+   mkdir -p themes
+   cd themes
    ```
 
-   After creating the directory, you may need to restart Home Assistant.
+   If the directory was just created, you may need to restart Home Assistant.
 
-3. Download the theme file directly:
+2. Download the theme file directly:
    ```bash
    wget https://raw.githubusercontent.com/bbbenji/synthwave-hass/master/themes/synthwave.yaml
    ```
